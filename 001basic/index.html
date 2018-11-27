@@ -12,10 +12,23 @@
     
     @keyframes myfirst
     {
-      from{opacity:0}
-      to{opacity:100}
+      0%{opacity:0}
+      25%{opacity:100}
+      75%{opacity:0}
+      100%{opacity:100}
     }
-    h1,p{animation:myfirst 2s infinite;}
+    @keyframes mysecond
+    {
+     0%{opacity:0}
+      25%{opacity:0}
+      75%{opacity:100}
+      100%{opacity:100}}
+    p{front-size:100px;}
+    
+    #nishi1{
+    animation:myfirst 5s infinite;}
+    #nishi2{
+    animation:mysecond 5s infinite;}
   </style>
   </head>
 <body>
@@ -26,13 +39,11 @@
 </audio>
   
   
+
   
-  <h1>静夜思</h1>
-  
-  <p>床前明月光</p>
-  <p>疑是地上霜</p>
-  <p>举头望明月</p>
-  <p>低头思故乡</p>
+  <p id='nishi1'>床前明月光</p>
+  <p id="nishi2">疑是地上霜</p>
+
   
 
   </body>
