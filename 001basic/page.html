@@ -12,23 +12,52 @@
     }
     #c{
     background-color:green;
+      animation: c 3s inifite;
     }
        #x{
     background-color:red;
+         animation: x 3s inifite;
     }
        #q{
     background-color:white;
+         animation:q 3s inifite;
     }
        #d{
     background-color:black;
        color:white;
+         animation: d 3s inifite;
     }
-    @keyframes myfirst
+    @keyframes c
+    {
+      0%{opacity:100}
+      20%{opacity:0}
+      40%{opacity:0}
+      75%{opacity:0}
+      100%{opacity:0}
+    }
+      @keyframes x
     {
       0%{opacity:0}
-      25%{opacity:100}
+      20%{opacity:100}
+      40%{opacity:0}
       75%{opacity:0}
-      100%{opacity:100}
+      100%{opacity:0}
+    }
+      @keyframes q
+    {
+      0%{opacity:0}
+      20%{opacity:0}
+      40%{opacity:100}
+      75%{opacity:0}
+      100%{opacity:0}
+    }
+      @keyframes d
+    {
+      0%{opacity:0}
+      20%{opacity:0}
+      40%{opacity:0}
+      75%{opacity:100}
+      100%{opacity:0}
     }
 
   </style>
